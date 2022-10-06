@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex: 5;
+    width: 100vw;
+}
+
+.song_list {
+    flex: 3;
+    padding: 0 20px;
+}
+
+.contentTitle {
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    background-color: rgb(241, 232, 232);
+    height: 50px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.ifSong {
+    min-width: 320px;
+    padding-left: 20px;
+}
+
+.TitleSong {
+    min-width: 250px;  
+}
+
+.infoTitleSong {
+
+}
+
+.timer{
+    width: 64px;
+    font-size:24px;
+}
+ 
+
+.song_player {
+    flex: 2;
+}
+
+.player_list {
+
+}
+
+.title {
+    margin: 20px 0;
+}
+
+.music_player {
+    display: flex;
+    background-color: #fcfcfc;
+    padding: 100px;
+    height: 80vh;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.disc_rotate {
+    background-color: #f0f1fa;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.slider {
+    margin-top: 20px;
+}
+
+.controler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.controls {
+    background-color: #333;
+    display: flex;
+}
+
+.playMusic {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+  }

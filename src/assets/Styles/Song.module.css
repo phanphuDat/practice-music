@@ -1,0 +1,85 @@
+.divSong {
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    border-radius: 3px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.divcontent {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.infor {
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+    gap: 10px;
+    padding: 0 20px;
+    min-width: 320px;
+}
+
+.careRight {
+    color: #dadce7;
+}
+
+.songId, .songTitle {   
+    font-weight: bold;
+}
+
+/* .songTitle:hover {
+    cursor: pointer;
+    box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.1) inset;
+    padding: 2px 2px;
+    border-radius:3px;
+} */
+
+.songArtist {
+    min-width: 250px;  
+}
+
+.songImage {
+    width: 50px;
+    height: 50px; 
+}
+
+.songImage > img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.songDuration {
+    width: 50px;
+    text-align: center;
+}
+
+.heart {
+    /* margin-right: 10px; */
+    color: #dcdee9;
+
+}
+
+.heart:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #c9cbda;
+}
+
+
+.heart-ticked {
+    /* margin-right: 10px; */
+    color: rgb(245, 35, 35);
+}
+
+.heart-ticked:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(182, 7, 7);
+}
